@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #2C2C2C;
+    background-color: #ffffff;
+    ;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.nav-link {
+    color: #2C2C2C;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #BBF330;
+    text-decoration: underline;
+}
+
+.header-button {
+    color: #2C2C2C;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+
+
+}
