@@ -1,9 +1,17 @@
+:root {
+    --button-green: #BBF330;
+    --dark-green: #7EB101;
+    --yellow-main: #FFE550;
+    --black: #2C2C2C;
+    --white: #FFFFFF;
+    --shadow-fruit: radial-gradient(50.00% 50.00% at 50.00% 50.00%, #2F583F 0%, rgba(105, 105, 105, 0.00) 100%);
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    color: #2C2C2C;
-    background-color: #ffffff;
-    ;
+    color: var(--black);
+    background-color: var(--white);
 }
 
 .link {
@@ -25,10 +33,48 @@ body {
 }
 
 .header-button {
-    color: #2C2C2C;
+    color: var(--black);
     font-size: 13px;
     font-family: inherit;
     cursor: pointer;
+    line-height: 1.5em;
+    text-align: right;
+    background-color: var(--button-green);
+}
 
+.header-button:hover,
+.header-button:focus,
+.header-button:active {
+    background-color: var(--yellow-main);
+}
 
+.title {
+    color: var(--black);
+    font-size: 48px;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+
+.main-text {
+    color: var(--black, #2C2C2C);
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1.5em;
+}
+
+.main-button {
+    color: var(--black);
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    line-height: 1.5em;
+    text-align: right;
+    background-color: var(--button-green);
+}
+
+.main-button:hover,
+.main-button:focus,
+.main-button:active {
+    background-color: var(--yellow-main);
 }
