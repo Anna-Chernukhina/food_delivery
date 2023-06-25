@@ -23,12 +23,12 @@ body {
 }
 
 .nav-link {
-    color: #2C2C2C;
+    color: var(--black);
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #BBF330;
+    color: var(--button-green);
     text-decoration: underline;
 }
 
@@ -38,13 +38,11 @@ body {
     font-family: inherit;
     cursor: pointer;
     line-height: 1.5em;
-    text-align: right;
     background-color: var(--button-green);
 }
 
 .header-button:hover,
-.header-button:focus,
-.header-button:active {
+.header-button:focus {
     background-color: var(--yellow-main);
 }
 
