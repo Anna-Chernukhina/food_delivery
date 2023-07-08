@@ -14,16 +14,59 @@ body {
     background-color: var(--white);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
 .link {
     text-decoration: none;
 }
 
 .list {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin-right: 30px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 28px;
 }
 
 .nav-link {
+    display: inline-block;
     color: var(--black);
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
 
 .nav-link:hover,
